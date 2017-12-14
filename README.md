@@ -16,7 +16,17 @@ Para ver si esta dado de alta en un determinado nombre de dominio lo haremos med
 
 Tendremos la posibilidad de dar de baja y de dar de alta a los usuarios guardados en el ldap. Nuestro servidor tendrá la posibilidad albergar páginas
 estáticas y páginas dinámicas mediante php. Cada usuario tendrá sus zonas www, ftp y mysql. Se creará el directorio personal del usuario y también
-se hará referencia en el ldap y en este directorio se guardará su DocumentRoot.
+se hará referencia en el ldap y en este directorio será su DocumentRoot los directorios de los usuario se guardaran en /var/www/superhosting/$usuario
+También se creará un virtualhost donde se pondrá su serverName y su DocumentRoot. Se creará un usuario para que pueda acceder por ftp y esta se dara
+al usuario. Nos crearemos un usuario en mysql y también se le creará una base de datos para este usuario y por último su zona de dns.
+
+Scripts:
+
+
+Tendremos diferentes scripts: 1. Nos permitira dar de altas a usuarios, 2.Nos permitirá dar de baja a usuario y 3.Nos permitira cambiar la contraseña
+de los usuario. 
+
+También si tenenemos tiempo haremos una api web para poder hacer todo esto mediante un etorno web
 
 
 Roles:
