@@ -14,6 +14,10 @@ Para ver si esta dado de alta en un determinado nombre de dominio lo haremos med
 
 4. En la resolución directa de la zona de nuestro usuario tendremos que tener 3 nombre: www, ftp y mysql
 
+Tendremos la posibilidad de dar de baja y de dar de alta a los usuarios guardados en el ldap. Nuestro servidor tendrá la posibilidad albergar páginas
+estáticas y páginas dinámicas mediante php. Cada usuario tendrá sus zonas www, ftp y mysql. Se creará el directorio personal del usuario y también
+se hará referencia en el ldap y en este directorio se guardará su DocumentRoot.
+
 
 Roles:
 Dani: Desarrollo
