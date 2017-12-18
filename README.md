@@ -28,6 +28,7 @@ de los usuario.
 
 También si tenenemos tiempo haremos una api web para poder hacer todo esto mediante un etorno web
 
+Cada usuario podrá tener en su directorio un fichero htaccess.
 
 Roles:
 Dani: Desarrollo
